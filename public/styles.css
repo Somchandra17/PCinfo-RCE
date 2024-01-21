@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: bodyFadeIn 1s ease-in-out;
+}
+
+@keyframes bodyFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    animation: h1FadeIn 2s ease-in-out;
+}
+
+@keyframes h1FadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+p {
+    background-color: #333;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    animation: pFadeIn 3s ease-in-out;
+}
+
+@keyframes pFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

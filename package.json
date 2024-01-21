@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "ua-parser-js": "^1.0.37"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "rcs",
+  "version": "1.0.0",
+  "description": "To show your system info on a vulnerable website",
+  "main": "server.js",
+  "author": "0xs0m",
+  "license": "ISC"
+}
